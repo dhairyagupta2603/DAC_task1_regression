@@ -1,32 +1,53 @@
 **20BRS1077**
 # Problem Statement 
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
+Can you use your regression skills to predict the age of a possum, its head length, whether it is male or female? This classic practice regression dataset comes originally from the DAAG R package (datasets used in examples and exercises in the book Maindonald, J.H. and Braun, W.J. (2003, 2007, 2010) "Data Analysis and Graphics Using R"). This dataset is also used in the OpenIntro Statistics book chapter 8 Introduction to linear regression.
+<br>
+The possum data frame consists of nine morphometric measurements on each of 104 mountain brushtail possums, trapped at seven sites from Southern Victoria to central Queensland.
+
 ## Dataset
 
 The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
 
-The 3 class labels are:
+The class labels are:
 <br>
 
-**1. Iris Setosa:** Given iris flower belongs to the Setosa species
+**1. Case:** Observation number
 <br>
-**2. Iris Virginica:** Given iris flower belongs to the Virginica species
+**2. Site:** The site number where the possum was trapped
 <br>
-**3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
+**3. Pop:** Population, either Vic (Victoria) or other (New South Wales or Queensland)
+<br>
+**4. Sex:** either m (male) or f (female)
+<br>
+**5. Age:** Age of possum
+<br>
+**6. Hdlngth:** Head length
+<br>
+**7. Skullw:** Skull width in mm
+<br>
+**8. Totlngth:** Total length in cm
+<br>
+**9. Tail:** Tail length in cm
+<br>
+**10. Footlgth:** Foot length
+<br>
+**11. earconch:** ear conch length
+<br>
+**12. Eye:** Distance from medial canthus to lateral canthus of right eye
+<br>
+**13. Chest:** Chest girth in cm
+<br>
+**14. Belly:** Belly girth in cm
 
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
-
-**Target Variable: SalePrice**
+**Target Variables: -**
 <br>
 <br>
-Sale Price refers to the selling price of the house.
-<br>
-**Mean Selling Price:** 121,000$
-<br>
-**Max Selling Price:** 1,000,000$
-<br>
-**Min Selling Price:** 45,000$
-
+<ul>
+    <li>Can we use total length to predict a possum's head length?</li>
+    <li>Which possum body dimensions are most correlated with age and sex?</li>
+    <li>Can we classify a possum's sex by its body dimensions and location?</li>
+    <li>Can we predict a possum's trapping location from its body dimensions?</li>
+</ul>
 
 ## Model(s) Used
 
