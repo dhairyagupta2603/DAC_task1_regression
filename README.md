@@ -41,7 +41,6 @@ The class labels are:
 
 **Target Variables: -**
 <br>
-<br>
 <ul>
     <li>Can we use total length to predict a possum's head length?</li>
     <li>Which possum body dimensions are most correlated with age and sex?</li>
