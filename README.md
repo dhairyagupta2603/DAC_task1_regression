@@ -7,6 +7,7 @@ The possum data frame consists of nine morphometric measurements on each of 104 
 ## Dataset
 
 The dataset used is the [Possum Regression](https://www.kaggle.com/abrambeyer/openintro-possum) from Kaggle. 
+<br>
 The class labels are:
 <br>
 **1. Case:** Observation number
